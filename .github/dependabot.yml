@@ -1,0 +1,86 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "composer" 
+    directory: "/cakephp" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer" 
+    directory: "/codeignitire" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer" 
+    directory: "/fuel" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer" 
+    directory: "/laminas" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer" 
+    directory: "/Laravel" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "docker" 
+    directory: "/Laravel" 
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Lumen"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Slim"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "docker"
+    directory: "/Slim"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Symfony"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "docker"
+    directory: "/Symfony"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/yii"
+    schedule:
+      interval: "weekly"     
+
+  - package-ecosystem: "composer"
+    directory: "/Troubleshooting-samples/Linux/Laravel/final"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Troubleshooting-samples/Linux/Laravel/initial"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Troubleshooting-samples/Windows/Laravel/final"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/Troubleshooting-samples/Windows/Laravel/initial"
+    schedule:
+      interval: "weekly"
