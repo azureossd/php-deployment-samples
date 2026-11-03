@@ -57,21 +57,21 @@
         },
         {
             "name": "laminas/laminas-component-installer",
-            "version": "3.6.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-component-installer.git",
-                "reference": "d36cd495624867985fc142e6004ade7c5f4a69bc"
+                "reference": "8eba3ef7054e4427cdd3c6c223e6c2b449fee9b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-component-installer/zipball/d36cd495624867985fc142e6004ade7c5f4a69bc",
-                "reference": "d36cd495624867985fc142e6004ade7c5f4a69bc",
+                "url": "https://api.github.com/repos/laminas/laminas-component-installer/zipball/8eba3ef7054e4427cdd3c6c223e6c2b449fee9b7",
+                "reference": "8eba3ef7054e4427cdd3c6c223e6c2b449fee9b7",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^2.0",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "composer-plugin-api": "^2.6",
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "conflict": {
                 "zendframework/zend-component-installer": "*"
@@ -80,10 +80,10 @@
                 "composer/composer": "^2.7.7",
                 "laminas/laminas-coding-standard": "~3.1.0",
                 "mikey179/vfsstream": "^1.6.11",
-                "phpunit/phpunit": "^10.5.35",
+                "phpunit/phpunit": "^11.5.42",
                 "psalm/plugin-phpunit": "^0.19.5",
                 "vimeo/psalm": "^6.13.1",
-                "webmozart/assert": "^1.11.0"
+                "webmozart/assert": "^1.11 || ^2.0.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -120,7 +120,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-10-16T15:07:11+00:00"
+            "time": "2026-05-20T14:12:39+00:00"
         },
         {
             "name": "laminas/laminas-config",
