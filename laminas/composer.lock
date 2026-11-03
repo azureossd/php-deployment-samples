@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dae2448ce990692cd913673b9073b583",
+    "content-hash": "214b3b62e00d57903e09a672d18d0cd2",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -57,32 +57,32 @@
         },
         {
             "name": "laminas/laminas-component-installer",
-            "version": "3.2.1",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-component-installer.git",
-                "reference": "a7b486a4df99e0e1cf45ae6e72d88a475fecfb90"
+                "reference": "d36cd495624867985fc142e6004ade7c5f4a69bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-component-installer/zipball/a7b486a4df99e0e1cf45ae6e72d88a475fecfb90",
-                "reference": "a7b486a4df99e0e1cf45ae6e72d88a475fecfb90",
+                "url": "https://api.github.com/repos/laminas/laminas-component-installer/zipball/d36cd495624867985fc142e6004ade7c5f4a69bc",
+                "reference": "d36cd495624867985fc142e6004ade7c5f4a69bc",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "zendframework/zend-component-installer": "*"
             },
             "require-dev": {
-                "composer/composer": "^2.4.4",
-                "laminas/laminas-coding-standard": "~2.4.0",
+                "composer/composer": "^2.7.7",
+                "laminas/laminas-coding-standard": "~3.1.0",
                 "mikey179/vfsstream": "^1.6.11",
-                "phpunit/phpunit": "^9.5.26",
-                "psalm/plugin-phpunit": "^0.18.0",
-                "vimeo/psalm": "^5.0.0",
+                "phpunit/phpunit": "^10.5.35",
+                "psalm/plugin-phpunit": "^0.19.5",
+                "vimeo/psalm": "^6.13.1",
                 "webmozart/assert": "^1.11.0"
             },
             "type": "composer-plugin",
@@ -120,7 +120,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-05-24T16:25:08+00:00"
+            "time": "2025-10-16T15:07:11+00:00"
         },
         {
             "name": "laminas/laminas-config",
@@ -879,34 +879,33 @@
         },
         {
             "name": "laminas/laminas-skeleton-installer",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-skeleton-installer.git",
-                "reference": "949a3c4f8daccb4a8237d09bcca1b622ebf28387"
+                "reference": "ec2fc36cfac35919c69748a4c1ce05c4f06daedf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-skeleton-installer/zipball/949a3c4f8daccb4a8237d09bcca1b622ebf28387",
-                "reference": "949a3c4f8daccb4a8237d09bcca1b622ebf28387",
+                "url": "https://api.github.com/repos/laminas/laminas-skeleton-installer/zipball/ec2fc36cfac35919c69748a4c1ce05c4f06daedf",
+                "reference": "ec2fc36cfac35919c69748a4c1ce05c4f06daedf",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.2",
                 "laminas/laminas-component-installer": "^3.0",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
             },
             "conflict": {
                 "zendframework/zend-skeleton-installer": "*"
             },
             "require-dev": {
-                "composer/composer": "^2.4.4",
-                "laminas/laminas-coding-standard": "^2.4",
+                "composer/composer": "^2.6.4",
+                "laminas/laminas-coding-standard": "~2.5.0",
                 "mikey179/vfsstream": "^1.6.11",
-                "phpspec/prophecy-phpunit": "^2.0.1",
-                "phpunit/phpunit": "^9.5.26",
-                "psalm/plugin-phpunit": "^0.18.0",
-                "vimeo/psalm": "^5.0.0"
+                "phpunit/phpunit": "^10.4",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.15"
             },
             "type": "composer-plugin",
             "extra": {
@@ -941,7 +940,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-12-21T08:22:47+00:00"
+            "time": "2023-11-22T21:19:28+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -1465,12 +1464,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
